@@ -2,5 +2,5 @@
   command = "cd ../.. && pnpm install --no-frozen-lockfile && pnpx turbo run build --filter=storefront..."
   publish = ".next"
 
-[build.environment]
+[build.production]
   NETLIFY_NEXT_PLUGIN_SKIP = "true"
