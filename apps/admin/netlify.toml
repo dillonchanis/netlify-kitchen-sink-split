@@ -1,0 +1,4 @@
+[build]
+  base = "apps/storefront"
+  command = "cd ../.. && pnpm install && pnpx turbo run build --filter=admin..."
+  publish = "apps/storefront/dist"
